@@ -11,7 +11,7 @@
     <?php 
     $fname = "Fadel";
     $lname = "Matar";
-    echo "<h1>Hello hello!</h1>"
+    echo "<h1>Hello hello!</h1>";
 
     echo "Hello " . $fname . " " . $lname;
     echo "Hello, welcome to Fadel\"s world";
