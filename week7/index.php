@@ -21,9 +21,14 @@
     echo $school['School Name'] . ' 
     <form action="update.php" method="GET">
     <input type="hidden" name="id" value="' . $school['id'] . '">
-        <input type="submit" value="EDIT">
-      </form>';
-  }
+        <input type="submit" value="Edit">
+        </form>
+    <form action= "delete.php" method="GET">
+    <input type="hidden" name="id" value="' . $school['id'] . '">
+    <input type="submit" value="Delete">
+        </form>';
+
+      }
 ?>
 </body>
 </html>
